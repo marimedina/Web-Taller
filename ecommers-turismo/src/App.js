@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import AltaPaquete from './Components/AltaPaquete';
+import Header from './Components/Header';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <>
       <h1>EXPLORE</h1>
       <div>
+        <Header/>
         <AltaPaquete 
           crearPaquete={crearPaquete}
         />
